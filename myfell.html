@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Small Gift</title>
+
+        <link rel="shortcut icon" href="gift (2).jpg" type="image/x-icon">
+        <link rel="icon" href="gift (2).jpg" type="image/x-icon">
+    </head>
+    <style>
+        body{
+            background-image: url(main.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        .container{
+            text-align: center;
+            margin-top: 75px;
+        }
+        #heart,#cone{
+            display: inline;
+        }
+        #heart{
+            margin-left: 450px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            float: left;
+            font-size: 100px;
+            animation: beat 4s linear infinite;
+        }
+        #cone{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 450px;
+            float: right;
+            text-wrap:nowrap;
+            font-size: 100px;
+             animation: beat 4s linear infinite;
+        }
+        @keyframes beat{
+            0%{transform: scale(0.75); opacity: 0.5;}
+            50%{transform: scale(1); opacity: 1;}
+            100%{transform: scale(0.75); opacity: 0.5;}
+        }
+        .text1{
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: 
+            typing 25s,
+            cursor .4s step-end infinite alternate ;
+        }
+        @keyframes cursor{
+            50%{
+                border-color: transparent;
+            }
+        }
+        @keyframes typing{
+            from{
+                width:0;
+            }
+        }
+    </style>
+    <body>
+        <div class="container">
+                <p class="text1"><strong> I wish you many more Happy returns of the day....
+                <br>This year (or) upcoming year you will achieve all your dreams and don't lose Hope in anything.....
+                <br>Be positive and Be strong in every situation..... 
+                <br>Study well and score high marks and dont get distracted concentrate on your studies....
+                <br>Don't be down when you study questions do not come in question papers Keep the Hope and study for the next exam...
+                <br>In upcoming semester you will really score good marks i have that Hope....
+                <br>Everything that happens to you is for some reason so take it easy and move on..... 
+                <br>One thing when you drive a vehicle please drive slowly, safely and careful.......
+                <br>Take caree of yourself.....
+                <br>you will be really happy for your upcoming your birthday
+                <br>Whatever i told is that thing which i think to tell you for very long time
+                <br>If any of the sentence make you fell sad then 
+                <br>I am really Sorry for that</p></strong>
+        </div>
+        <p class="content-3" id="heart">&#x2764;&#xFE0F;</p><p class="content-4" id="cone">&#x1F389;</p>
+    </body>       
+</html>

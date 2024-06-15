@@ -1,0 +1,63 @@
+.content{
+    margin-top: 260px;
+    width:100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+h1,h3{
+    font-size: 35px;
+    font-weight: 500px;
+    font-family: sans-serif;
+}
+h1,h3{
+    background:linear-gradient(90deg, #60C9BA,#fff,#60C9BA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:rgba(255, 255, 255, 0);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: anime 9s infinite linear;
+}
+@keyframes anime {
+    0%{
+        background-position: -350%;
+    }
+    100%{
+        background-position: 350%;
+    }
+    
+}
+p{
+    padding-left: 450px;
+    padding-right: 360px;
+    font-size: 19px;
+    text-align: center;
+    color:whitesmoke
+}
+body{
+    margin: 0% 0% 0% 0%;
+    padding: 0%;
+}
+.btn{
+    margin-top: 35px;
+    color:rgb(242, 247, 246);
+    height: 40px; width: 150px;
+    border-color: #60C9BA;
+    border-width: 1px;
+    border-radius: 25px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,#a6d0e4,#60C9BA);
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: 650;
+    background: linear-gradient(90deg,#60C9BA,#a6d0e4);
+}
+.about:hover{
+    cursor:pointer;
+}
